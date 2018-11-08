@@ -199,8 +199,12 @@ class Game:
                 prob = reverseProb * ((playerGoodness / 0.5))
                 if prob > 100.0:
                     prob = 100.0
+                if prob < 0.0:
+                    prob = 0.0
                 if playerGoodness > 1:
                     playerGoodness = 1
+                if playerGoodness < 0:
+                    playerGoodness = 0
                 print "Player " + str(player.playerNumber) + "'s Probability of Being Good : " + str(prob) + "% | Score : " + str(playerGoodness)
         if goodScore == 3:
             print "Minions of Arthur Wins!"
