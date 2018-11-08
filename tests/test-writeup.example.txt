@@ -1,0 +1,13 @@
+Number of Players: 
+Good Players:
+Bad Players: 
+Starting Player:
+
+Round 1
+Pick 1: []
+Picked By: 
+Voting (for/against): [] / []
+Result: Success / Fail
+Score: 0 - 0
+
+Overall: 0 - 0
